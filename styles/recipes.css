@@ -1,0 +1,15 @@
+h3, h2{
+    margin-top: 20px ;
+    margin-bottom: 5px;
+}
+
+.recipe-img{
+    width: 100%;
+    height: auto;
+}
+
+li{
+    list-style:inside;
+    text-align: start;
+}
+
