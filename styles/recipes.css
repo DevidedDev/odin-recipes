@@ -1,15 +1,63 @@
-h3, h2{
-    margin-top: 20px ;
-    margin-bottom: 5px;
-}
+
 
 .recipe-img{
-    width: 100%;
+    width: 300px;
     height: auto;
 }
 
-li{
-    list-style:inside;
-    text-align: start;
+ul, 
+ol{
+    text-align: start;    
 }
 
+ol{
+    
+    
+    list-style:decimal inside;
+}
+ul{
+    list-style:disc inside
+    
+}
+
+.food-title{
+    font-family: "cursive";
+    text-decoration: underline;
+    
+}
+
+.recipe-img{
+    border-radius: 10px;
+    border: 2px solid rgb(255, 181, 181);
+}
+
+.preperation-info{
+    margin: 10px auto;
+}
+
+.preperation-info li{
+    font-size: 14px;
+}
+
+.ingredients-info,
+.steps-info{
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    vertical-align: top;
+    background-color: #d88989;
+    border: solid 2px #cd7676;
+    border-radius: 10px;
+    color: rgb(251, 251, 234);
+    padding: 5px;
+}
+
+.link{
+    background-color: #d88989;
+    border: solid 2px #cd7676;
+    border-radius: 100px;
+    padding: 3px 10px;
+    display: inline-block;
+    color: rgb(251, 251, 234);
+    
+}
